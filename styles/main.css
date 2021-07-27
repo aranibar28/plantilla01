@@ -1,0 +1,21 @@
+header {
+  color: white;
+  padding: 20px;
+  background-color: cornflowerblue;
+  border-radius: 0.3em;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  padding: 8px;
+  background-color: blueviolet;
+  border-radius: 0.3em;
+}
+
+img {
+  border-radius: 0.3em;
+  width: 200px;
+  height: 300px;
+}
+
