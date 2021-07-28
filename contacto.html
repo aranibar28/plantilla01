@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Web</title>
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+
+  <body>
+    <!--Header-->
+    <header>
+      <strong><a href="index.html">Logo</a></strong>
+      <nav>    
+        <ul>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="deportes.html">Deportes</a></li>
+          <li><a href="humor.html">Humor</a></li>
+          <li><a href="espectaculos.html">Espectáculo</a></li>
+          <li><a href="politica.html">Política</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!--Section 1-->
+      <section>
+        <h1>Contacto</h1>
+        <form action="">
+          <div>
+            <label for="name">Nombres y apellidos</label>
+            <input id="name" name="name" placeholder="Nombres y apellidos" type="text" required />
+          </div>
+          <div>
+            <label for="age">Edad</label>
+            <input id="age" name="age" placeholder="Edad" min="18" max="60" type="number" required />
+          </div>
+          <div>
+            <label for="date">Fecha Nacimiento</label>
+            <input id="date" name="date" type="date" required />
+          </div>
+          <div>
+            <label for="sexo">Sexo</label>
+            <input type="radio" name="sex" value="f" id="sexf" checked /><label for="sexf">F</label> <input type="radio" name="sex" value="m" id="sexm" /><label for="sexm">M</label>
+          </div>
+          <div>
+            <h2>Intereses</h2>
+            <input type="checkbox" id="tech" value="tech" checked /><label for="tech">Analisis</label> <input type="checkbox" id="politicc" value="politica" checked /><label for="politica">Diseño</label>
+            <input type="checkbox" id="moda" value="moda" checked /><label for="moda">Desarrollo</label>
+          </div>
+          <div>
+            <h2>Pais</h2>
+            <select name="" id="" required>
+              <option value="1">Seleccionar</option>
+              <option value="1">Peru</option>
+              <option value="2">Argentina</option>
+              <option value="3">Chile</option>
+            </select>
+          </div>
+          <div>
+            <div><label for="comment">Comentarios</label></div>
+            <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+          </div>
+          <br />
+          <div>
+            <button type="submit">Enviar</button>
+            <button type="reset">Reset</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Todos los derechos reservados © - 2021</p>
+    </footer>
+  </body>
+</html>
