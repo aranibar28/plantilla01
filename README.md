@@ -1,3 +1,10 @@
-# proyecto
+# Página Web - CodiGo
 
-https://aranibar28.github.io/proyecto/
+### URL: https://aranibar28.github.io/proyecto/
+
+### Semana 2 - Frontend
+- Etiquetas HTML5
+- Estilos CCS3
+- Formularios
+
+<hr>
