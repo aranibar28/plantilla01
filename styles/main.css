@@ -1,19 +1,102 @@
-img {
-  border-radius: 0.3em;
-  width: 200px;
-  height: 300px;
+body {
+  margin: 0px;
+  padding: 0px;
+  font-size: medium;
+  height: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contenedor {
+  display: inline-block;
+  height: 100%;
+  position: absolute;
+  top: 55px;
+  left: 600px;
+  right: 0;
+  margin: 0 auto;
+}
+
+.contenedor1 {
+  height: 540px;
+}
+
+section {
+  text-align: center;
+  display: flex;
+}
+
+section form {
+  text-align: left;
+  padding: 5px 150px;
 }
 
 footer {
+  background-color: rgb(236, 12, 12);
   text-align: center;
+  color: white;
   padding: 8px;
+}
+
+img {
+  border-radius: 0.3em;
+  width: 210px;
+  height: 300px;
+}
+
+.mapa {
+  width: 600px;
+  height: 300px;
+  border: black 1px solid;
+}
+
+div {
+  text-align: left;
+  padding: 5px 20px;
+}
+
+p {
+  text-align: center;
+  padding: 0px 30px;
+}
+
+aside {
+  width: 10%;
+  height: 950px;
+  float: left;
+  padding: 30px;
+  background: gray;
+  border-radius: 0.3em;
+}
+
+aside ul li {
+  background: gray;
+  padding: 10px 16px;
+}
+
+figure {
+  padding: 0px 45px;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: red;
+}
+
+section h2 {
+  padding: 14px 16px;
+}
+
+h2 {
+  padding: 14px 168px;
 }
 
 strong a {
   color: white;
   text-decoration: none;
+  text-transform: uppercase;
   position: absolute;
-  padding: 14px 16px;
+  padding: 14px 50px;
 }
 
 ul {
@@ -31,10 +114,54 @@ li a {
   float: right;
   text-align: center;
   padding: 14px 16px;
-
 }
 
-aside ul li {
-  background-color: white;
-  padding: 0px 16px;
+li a:hover {
+  background-color: black;
+}
+
+.button {
+  background-color: red; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: black; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+input:focus {
+  outline: none;
+}
+
+input:focus:invalid {
+  border: 1px solid red;
+}
+
+input:valid {
+  border: 1px solid green;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+textarea:focus:invalid {
+  border: 1px solid red;
+}
+
+textarea:focus:valid {
+  border: 1px solid green;
 }
