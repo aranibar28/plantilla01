@@ -121,7 +121,7 @@ li a:hover {
 }
 
 .button {
-  background-color: red; /* Green */
+  background-color: red;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -132,7 +132,7 @@ li a:hover {
 }
 
 .button:hover {
-  background-color: black; /* Green */
+  background-color: black;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -140,6 +140,24 @@ li a:hover {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+
+.btn {
+  border-radius: 5px;
+  height: 38px;
+  width: 98%;
+}
+
+select {
+  border-radius: 5px;
+  height: 45px;
+  width: 100%;
+}
+
+textarea {
+  border-radius: 5px;
+
+  width: 98%;
 }
 
 input:focus {

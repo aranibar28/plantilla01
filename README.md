@@ -6,5 +6,4 @@
 - Etiquetas HTML5
 - Estilos CCS3
 - Formularios
-
-<hr>
+- Validaciones
