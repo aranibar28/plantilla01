@@ -13,69 +13,76 @@
     <header>
       <strong><a href="index.html">Logo</a></strong>
       <nav>
-        <ul>
-          <li><a href="contacto.html">Contacto</a></li>
-          <li><a href="deportes.html">Deportes</a></li>
-          <li><a href="humor.html">Humor</a></li>
-          <li><a href="espectaculos.html">Espectáculo</a></li>
-          <li><a href="politica.html">Política</a></li>
+        <ul class="ul">
+          <li class="li"><a href="deportes.html">Deportes</a></li>
+          <li class="li"><a href="humor.html">Humor</a></li>
+          <li class="li"><a href="espectaculos.html">Espectáculo</a></li>
+          <li class="li"><a href="politica.html">Política</a></li>
+          <li class="li"><a href="contacto.html">Contacto</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <h2>Contacto</h2>
-      <section class="contenedor1">
-        
-        <form action="">
-          <div>
-            <input id="name" name="name" placeholder="Nombres y apellidos" type="text" class="btn" required pattern="^[a-zA-Z]+( [a-zA-Z]+)*$" />
+        <div class="contacto">
+          <div class="caja1">
+            <h2>Contacto</h2>
+            <form class="form">
+              <div>
+                <input id="name" name="name" placeholder="Nombres y apellidos" type="text" class="btn" required pattern="^[a-zA-Z]+( [a-zA-Z]+)*$" />
+              </div>
+              <div>
+                <input id="age" name="age" placeholder="Edad" min="18" max="60" type="number" class="btn" required />
+              </div>
+              <div>
+                <select name="" id="" required class="selection">
+                  <option value="0">País</option>
+                  <option value="1">Peru</option>
+                  <option value="2">Argentina</option>
+                  <option value="3">Chile</option>
+                </select>
+              </div>
+              <div>
+                <br>
+                <strong>Sexo</strong>
+                <input type="radio" name="sex" value="m" id="sexm" checked /><label for="sexm">M</label> 
+                <input type="radio" name="sex" value="f" id="sexf" /><label for="sexf">F</label>
+              </div>
+              <div>
+                <strong>Intereses</strong>
+                <input type="checkbox" id="tec" value="tec" checked /><label for="tec">Tecnología</label> 
+                <input type="checkbox" id="pol" value="pol" checked /><label for="pol">Política</label>
+                <input type="checkbox" id="mod" value="mod" checked /><label for="mod">Moda</label>
+              </div>
+              <div>
+                <textarea name="comment" id="comment" cols="40" rows="8" class="textarea" placeholder="Comentarios" required></textarea>
+              </div>
+              <br />
+              <div>
+                <button class="button" type="submit">Enviar</button>
+                <button class="button" type="reset">Reset</button>
+              </div>
+            </form>
+          </section>
           </div>
-          <div>
-            <input id="age" name="age" placeholder="Edad" min="18" max="60" type="number" class="btn" required />
+
+          <div class="caja2">
+            <section class="section">
+              <h2>Ubícanos</h2>
+                <p>Direccion: Av. Carlos Izaguirre</p>
+                <p>Lima - Peru</p>
+                <p>Teléfono: 940994003</p>
+              <figure>
+                <img src="images/mapa.png" alt="mapa" class="img" />
+              </figure>
+            </section>
           </div>
-          <div>
-            <select name="" id="" required>
-              <option value="0">País</option>
-              <option value="1">Peru</option>
-              <option value="2">Argentina</option>
-              <option value="3">Chile</option>
-            </select>
-          </div>
-          <div>
-            <strong>Sexo</strong>
-            <input type="radio" name="sex" value="m" id="sexm" checked /><label for="sexm">M</label> 
-            <input type="radio" name="sex" value="f" id="sexf" /><label for="sexf">F</label>
-          </div>
-          <div>
-            <strong>Intereses</strong>
-            <input type="checkbox" id="tec" value="tec" checked /><label for="tec">Tecnología</label> 
-            <input type="checkbox" id="pol" value="pol" checked /><label for="pol">Política</label>
-            <input type="checkbox" id="mod" value="mod" checked /><label for="mod">Moda</label>
-          </div>
-          <div>
-            <textarea name="comment" id="comment" cols="40" rows="8" placeholder="Comentarios" required></textarea>
-          </div>
-          <br />
-          <div>
-            <button class="button" type="submit">Enviar</button>
-            <button class="button" type="reset">Reset</button>
-          </div>
-        </form>
-      </section>
-     
-      <section class="contenedor">
-        <h2>Ubícanos</h2>
-          <p>Direccion: Av. Carlos Izaguirre</p>
-          <p>Lima - Peru</p>
-          <p>Teléfono: 940994003</p>
-        <figure>
-          <img src="images/mapa.png" alt="mapa" class="mapa" />
-        </figure>
-      </section>
+        </div>
+      </div>
+      <footer>
+        <p>Todos los derechos reservados © - 2021</p>
+      </footer>
     </main>
-    <footer>
-      <p>Todos los derechos reservados © - 2021</p>
-    </footer>
+
   </body>
 </html>
