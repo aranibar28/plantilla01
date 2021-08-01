@@ -1,123 +1,163 @@
 body {
-  margin: 0px;
-  padding: 0px;
-  font-size: medium;
-  height: 100%;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.contenedor {
-  display: inline-block;
-  height: 100%;
-  position: absolute;
-  top: 55px;
-  left: 600px;
-  right: 0;
-  margin: 0 auto;
-}
-
-.contenedor1 {
-  height: 540px;
-}
-
-section {
   text-align: center;
-  display: flex;
+  font-family: Verdana, Tahoma, sans-serif;
+  background-color: gray;
+  margin: 0;
+  padding: 0;
 }
 
-section form {
-  text-align: left;
-  padding: 5px 150px;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: red;
 }
 
 footer {
-  background-color: rgb(236, 12, 12);
   text-align: center;
   color: white;
-  padding: 8px;
-}
-
-img {
-  border-radius: 0.3em;
-  width: 210px;
-  height: 300px;
-}
-
-.mapa {
-  width: 600px;
-  height: 300px;
-  border: black 1px solid;
-}
-
-div {
-  text-align: left;
-  padding: 5px 20px;
-}
-
-p {
-  text-align: center;
-  padding: 0px 30px;
-}
-
-aside {
-  width: 10%;
-  height: 950px;
-  float: left;
-  padding: 30px;
-  background: gray;
-  border-radius: 0.3em;
-}
-
-aside ul li {
-  background: gray;
-  padding: 10px 16px;
-}
-
-figure {
-  padding: 0px 45px;
-}
-
-h1 {
-  text-align: center;
-  text-transform: uppercase;
-  color: red;
-}
-
-section h2 {
-  padding: 14px 16px;
-}
-
-h2 {
-  padding: 14px 168px;
+  background: red;
+  padding: 1px;
+  
 }
 
 strong a {
-  color: white;
   text-decoration: none;
-  text-transform: uppercase;
-  position: absolute;
-  padding: 14px 50px;
+  color: white;
+  font-size: 20px;
+  padding: 0px 80px;
+}
+
+h1{
+    color: red;
+    text-transform: uppercase;
+}
+h3 {
+    text-align: left;
+    margin-left: 30px;
+}
+
+.ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  margin: 15px;
+}
+
+.li a {
+  text-decoration: none;
+  color: white;
+  margin: 0px 15px;
+}
+
+.li a:hover {
+  text-decoration: none;
+  color: black;
 }
 
 ul {
+  text-align: left;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: rgb(236, 12, 12);
 }
 
 li a {
-  color: white;
+  color: black;
   text-decoration: none;
-  display: inline;
-  float: right;
-  text-align: center;
-  padding: 14px 16px;
 }
 
 li a:hover {
-  background-color: black;
+  text-decoration: none;
+  color: white;
+}
+
+section {
+  display: flex;
+}
+
+.section{
+  display: inline;
+}
+
+img {
+  width: 60%;
+  height: auto;
+  border-radius: 5px;
+  filter: drop-shadow(3px 3px 5px #444);
+}
+
+.form{
+  text-align: left;
+  padding-left: 20%;
+  margin-bottom: 6%;
+}
+
+.img{
+  border-radius: 0px;
+
+  width: 500px;
+}
+
+.container {
+  overflow: hidden;
+}
+
+.a {
+  float: left;
+  padding: 100px 0px;
+  background-color: gray;
+  width: 15%;
+}
+
+.b {
+  float: right;
+  width: 85%;
+  background: white;
+}
+
+.contacto{
+  background-color: white;
+  display: flex;
+}
+
+.caja1{
+  margin-left: 10%;
+  margin-top: 50px;
+  width: 50%;
+  background: white;
+}
+
+.caja1 h2{
+  margin-right: 15%;
+}
+
+.caja2{
+  margin-top: 50px;
+  margin-right: 5%;
+  width: 50%;
+  background: white;
+}
+
+input{
+  margin-bottom: 20px;
+}
+
+.btn{
+  width: 60%;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.selection{
+  width: 61.2%;
+  height: 38px;
+  border-radius: 5px;
+}
+
+.textarea{
+  width: 60%;
+
+  border-radius: 5px;
 }
 
 .button {
@@ -129,12 +169,12 @@ li a:hover {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  margin-left: 5%;
 }
 
 .button:hover {
-  background-color: black;
   border: none;
-  color: white;
+  color: black;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -142,23 +182,6 @@ li a:hover {
   font-size: 16px;
 }
 
-.btn {
-  border-radius: 5px;
-  height: 38px;
-  width: 98%;
-}
-
-select {
-  border-radius: 5px;
-  height: 45px;
-  width: 100%;
-}
-
-textarea {
-  border-radius: 5px;
-
-  width: 98%;
-}
 
 input:focus {
   outline: none;
